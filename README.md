@@ -37,6 +37,6 @@ optional:
 ```
 ## Credits
 Thanks to billythegoat356 for providing:
-- Billy: https://github.com/billythegoat356
 - Very good module PyStyle: https://github.com/billythegoat356/pystyle
 - Fast and powerful obfuscation: https://github.com/billythegoat356/Hyperion
+- billythegoat356: https://github.com/billythegoat356
