@@ -24,9 +24,9 @@
 - git clone https://github.com/Audrise/mcflood.git
 - cd mcflood
 or
-- pip3 install -r requirements.txt
 - git clone https://github.com/Audrise/mcflood.git
 - cd mcflood
+- pip3 install -r requirements.txt
 ```
    ## Usage
 ```sh
