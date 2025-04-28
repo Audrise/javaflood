@@ -35,3 +35,8 @@ python3 mcflood.py -ip [ ip address ] -port [ port ] -s [ packet size ] -t [ thr
 optional:
     -h [ show help message ] -c [ Show Credit ] -api [ check server status ]
 ```
+    ##Credits
+Thanks to billythegoat356 for providing:
+- Billy: https://github.com/billythegoat356
+- Very good module PyStyle: https://github.com/billythegoat356/pystyle
+- Fast and powerful obfuscation: https://github.com/billythegoat356/Hyperion
