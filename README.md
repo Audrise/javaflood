@@ -10,11 +10,11 @@
 
    ## Features
 ```sh
-- Login Simulation
 - Colorfull
 - Interactive
 - Speed indicator
 - Easy to use
+- Input & Argv mode
 - Made with 100% python 
 ```
    ## Installation
@@ -30,10 +30,10 @@ or
 ```
    ## Usage
 ```sh
-python3 mcflood.py -ip [ ip address ] -port [ port ] -s [ packet size ] -t [ threads ] -d [ duration ] -p [ protocol ] -l [ login simulation ]
+python3 mcflood.py -ip [ ip address ] -port [ port ] -s [ packet size ] -t [ threads ] -d [ duration ] -p [ protocol ]
 
 optional:
-    -h [ show help message ] -c [ Show Credit ] -api [ check server status ]
+    -h [ show help message ] -c [ Show Credit ] -api [ Check server status ] -input [ Switch to input mode ]
 ```
 ## Credits
 Thanks to billythegoat356 for providing:
