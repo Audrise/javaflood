@@ -8,26 +8,6 @@
     <img src="https://img.shields.io/badge/Python-FFDD00?style=for-the-badge&logo=python&logoColor=blue"/>
 </div>
 
-   ## Features
-```sh
-- Colorfull
-- Interactive
-- Speed indicator
-- Easy to use
-- Input & Argv mode
-- Made with 100% python 
-```
-   ## Installation
-```sh
-- pip3 install pystyle
-- pip3 install requests
-- git clone https://github.com/Audrise/mcflood.git
-- cd mcflood
-or
-- git clone https://github.com/Audrise/mcflood.git
-- cd mcflood
-- pip3 install -r requirements.txt
-```
    ## Usage
 ```sh
 python3 mcflood.py -ip [ ip address ] -port [ port ] -s [ packet size ] -t [ threads ] -d [ duration ] -p [ protocol ]
