@@ -1,7 +1,7 @@
-<strong><h1 align="center">MCFLOOD</h1></strong>
+<h1 align="center">MCFLOOD</h1>
 
 <div align=center>
-    DoS Attack Tool For Minecraft Java
+    <strong>DoS Attack Tool For Minecraft Java</strong>
 </div>
 <br>
 <div align=center>
