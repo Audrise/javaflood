@@ -46,7 +46,7 @@
     - Sends handshake packets using spoofed or invalid protocol versions to trigger unexpected server behavior.
 
 - **Check Server Status**:
-    - To check the server status directly with the api provided by **[mcstatus.io](https://mcstatus.io)**. Use the parameter `python3 bedflood.py -api <IP Address>`
+    - To check the server status directly with the api provided by **[mcstatus.io](https://mcstatus.io)**. Use the parameter `python3 javaflood.py -api <IP Address>`
 
 ## Command-Line Arguments
 
@@ -107,4 +107,5 @@ Please use this tool **responsibly** and **only** for legitimate **security test
 <br>
 
 <h1></h1>
+
 <h4 align="center">©AUDRISE</h4>
