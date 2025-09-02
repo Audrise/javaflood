@@ -9,7 +9,7 @@ d = 0
 # delay = 10
 
 command = [
-    "python3", "main.py",
+    "python3", "javaflood.py",
     "-ip", ip,
     "-port", port,
     "-s", str(s),
@@ -24,3 +24,4 @@ try:
 
 except KeyboardInterrupt:
     exit()
+
