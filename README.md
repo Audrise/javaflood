@@ -9,7 +9,7 @@
 
 <div align=center>
     <img src="https://img.shields.io/badge/Python-FFDD00?style=for-the-badge&logo=python&logoColor=blue"/>
-    <img src="https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Version-1.1-blue?style=for-the-badge"/>
     <br>
     <img src="https://img.shields.io/github/stars/Audrise/javaflood?style=social">
 </div>
@@ -21,11 +21,11 @@
 - **TCP Handshake Flooding**:
    - Repeatedly initziates `TCP handshakes` to consume server socket resources.
 
+- **Connection Reuse**:
+    - Sends multiple forged packets over the same `TCP connection` to maximize impact.
+
 - **Multithreading**:
     - Uses `ThreadPoolExecutor` to run multiple threads for parallel packet sending.
-
-- **Multi-threaded Packet Spamming**:
-    - Launches multiple threads to flood the server with packets in parallel.
 
 - **Thread Synchronization**:
     - The monitoring thread runs in the background as a `daemon threads`
@@ -36,9 +36,6 @@
 - **Payload Padding**:
     - Adds random bytes to increase packet size and obfuscate attack patterns.
 
-- **Connection Reuse**:
-    - Sends multiple forged packets over the same `TCP connection` to maximize impact.
-
 - **Rapid Connect-Disconnect Loops**:
     - Quickly opens and closes connections to exhaust server capacity.
 
@@ -46,7 +43,7 @@
     - Sends handshake packets using spoofed or invalid protocol versions to trigger unexpected server behavior.
 
 - **Check Server Status**:
-    - To check the server status directly with the api provided by **[mcstatus.io](https://mcstatus.io)**. Use the parameter `python3 javaflood.py -api <IP Address>`
+    - To check the server status directly with the api provided by **[mcstatus.io](https://mcstatus.io)**. Use the parameter `python3 javaflood.py -api < IP/Domain >`
 
 ## Command-Line Arguments
 
@@ -73,12 +70,12 @@
     ```bash
     pip3 install -r requirements.txt
     ```
-   Or
+   or
     ```bash
     pip3 install pystyle requests
     ```
 
-3. To run JAVAFLOOD, open a terminal and use the following command:
+3. To run `javaflood.py`, open a terminal and use the following command:
     ```bash
     python3 javaflood.py -ip [ ip address ] -port [ port ] -s [ packet size ] -t [ threads ] -p [ protocol ] -d [ duration ]
     ```
@@ -87,9 +84,15 @@
     ```bash
     python3 javaflood.py -ip 120.0.0.1 -port 25565 -s 100 -t 100 -p 47 -d 60
     ```
+4. or you can use
+    ```bash
+    python3 quickrun.py
+    ```
+    and don't forget to configure the attack on `quickrun.py`
+
 <br>
 
-<h1 align="center">WARNING</h1>
+<h1 align="center">DISCLAIMER!</h1>
 
 **JAVAFLOOD** is developed strictly for **educational** and **research** purposes within a **controlled environment**. This tool must only be used with the **explicit permission** of the **server owner**.
 
@@ -103,9 +106,11 @@ Please use this tool **responsibly** and **only** for legitimate **security test
 - Thanks to **[BillyTheGoat356](https://github.com/billythegoat356)** which provides the **[PyStyle](https://github.com/billythegoat356/pystyle.git)** module for very nice terminal styling and **[Hyperion](https://github.com/billythegoat356/hyperion.git)** for nice obfuscation tool
 - Thanks to **[mcstatus.io](https://mcstatus.io)** which provides API to check server easily and quickly.
 
-<br>
+## **Latest Update**
+
+### **1.1 - Minor adjustments and bug fixes** 📌
+
 <br>
 
 <h1></h1>
-
 <h4 align="center">©AUDRISE</h4>
