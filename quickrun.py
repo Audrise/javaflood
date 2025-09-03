@@ -1,7 +1,7 @@
 import subprocess
 
 ip = "127.0.0.1"
-port = "19132"
+port = "25565"
 s = 1
 t = 1
 p = 0
@@ -24,4 +24,5 @@ try:
 
 except KeyboardInterrupt:
     exit()
+
 
