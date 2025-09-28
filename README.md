@@ -87,7 +87,7 @@
     ```
 4. or you can use
     ```bash
-    python3 javaflood.py -load <config.json>
+    python3 javaflood.py -load config.json
     ```
     and don't forget to configure the attack in `config.json`
 
@@ -136,3 +136,4 @@ Make sure the `.json` file you create is formatted correctly, with the parameter
 ```
 <h1></h1>
 <h4 align="center">©AUDRISE</h4>
+
