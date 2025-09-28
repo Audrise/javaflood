@@ -9,7 +9,7 @@
 
 <div align=center>
     <img src="https://img.shields.io/badge/Python-FFDD00?style=for-the-badge&logo=python&logoColor=blue"/>
-    <img src="https://img.shields.io/badge/Version-1.1-blue?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Version-1.2-blue?style=for-the-badge"/>
     <br>
     <img src="https://img.shields.io/github/stars/Audrise/javaflood?style=social">
 </div>
@@ -55,6 +55,7 @@
 | `-t`     | Yes      | Number of threads **(must be an integer)**.                              |
 | `-p`     | Yes      | Protocol version **(choose an integer value or set to `0` for random)**. |
 | `-d`     | Yes      | Duration of the attack in seconds **(must be an integer)**.              |
+| `-load`  | Optional | Path to a `.json` configuration file **(loads all parameters)**.         |
 | `-delay` | Optional | Delay the attack by X seconds after all **required arguments are set.**  |
 | `-api`   | Optional | Call the `api` function with the provided domain/IP and exit.            |
 | `-h`     | No       | Show help message and exit.                                              |
@@ -86,9 +87,10 @@
     ```
 4. or you can use
     ```bash
-    python3 quickrun.py
+    python3 javaflood.py -load <config.json>
     ```
-    and don't forget to configure the attack on `quickrun.py`
+    and don't forget to configure the attack in `config.json`
+
 
 <br>
 
@@ -104,13 +106,33 @@ Please use this tool **responsibly** and **only** for legitimate **security test
 ## Credits
 - Thanks to **[FiePaw](https://github.com/FiePaw)** to enable me to strengthen and modify the initial version of `JAVAFLOOD` that **[FiePaw](https://github.com/FiePaw)** developed
 - Thanks to **[BillyTheGoat356](https://github.com/billythegoat356)** which provides the **[PyStyle](https://github.com/billythegoat356/pystyle.git)** module for very nice terminal styling and **[Hyperion](https://github.com/billythegoat356/hyperion.git)** for nice obfuscation tool
-- Thanks to **[mcstatus.io](https://mcstatus.io)** which provides API to check server easily and quickly.
+- Thanks to **[mcstatus.io](https://mcstatus.io)** which provides API to check minecraft server easily and quickly.
 
 ## **Latest Update**
 
-### **1.1 - Minor adjustments and bug fixes** 📌
+### **1.2 - Usage of -load Parameter** 📌
+By using the `-load` parameter, you can directly run the tool with the configuration set inside a `.json` file, without the need to manually input all the parameters. This is particularly useful for speeding up the setup process and running the tool with pre-configured settings.
 
-<br>
+#### **Example usage**
+For example, if you have a configuration file named config.json that contains the default settings for the tool, you can run the tool with the following command:
 
+```bash
+python3 javaflood.py -load config.json
+```
+This will load all parameters from config.json and run the tool.
+
+#### **JSON File Structure**
+Make sure the `.json` file you create is formatted correctly, with the parameters expected by the tool. Here's an example of a valid JSON structure for this tool:
+
+```bash
+{
+    "ip": "127.0.0.1",
+    "port": 25565,
+    "packet_size": 100,
+    "threads": 100,
+    "protocol": 0,
+    "duration": 0
+}
+```
 <h1></h1>
 <h4 align="center">©AUDRISE</h4>
