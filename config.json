@@ -1,8 +1,10 @@
 {
     "ip": "127.0.0.1",
     "port": 25565,
-    "packet_size": 100,
-    "threads": 100,
+    "packet_size": 0,
+    "threads": 0,
     "protocol": 0,
-    "duration": 0
+    "duration": 6,
+    "wait": 10,
+    "icon": 0
 }
