@@ -154,10 +154,11 @@ Make sure the `.json` file you create is formatted correctly, with the parameter
     "packet_size": 0,
     "threads": 0,
     "protocol": 0,
-    "duration": 6,
-    "wait": 10,
+    "duration": 0,
+    "wait": 60,
     "icon": 0
 }
 ```
 <h1></h1>
 <h4 align="center">©AUDRISE</h4>
+
