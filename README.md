@@ -9,33 +9,32 @@
 
 <div align=center>
     <a href="https://www.python.org/">
-        <img src="https://img.shields.io/badge/Python-FFDD00?style=for-the-badge&logo=python&logoColor=blue"/>
+        <img src="https://img.shields.io/badge/Python 3-FFDD00?style=for-the-badge&logo=python&logoColor=blue"/>
     </a>
-    <img src="https://img.shields.io/badge/Version-1.2-blue?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/JAVAFLOOD-1.2.1-blue?style=for-the-badge"/>
     <br>
-    <img src="https://img.shields.io/badge/Maintained%3F-yes-blue.svg"/>
-    <img src="https://img.shields.io/github/stars/Audrise/javaflood?style=social">
+    <img src="https://img.shields.io/github/stars/Audrise/javaflood?style=social"/>
+    <img src="https://img.shields.io/github/forks/Audrise/javaflood?style=social"/>
+    <br>
 </div>
 <br>
 
 <h1 align="center">DISCLAIMER!</h1>
 
-**JAVAFLOOD** is developed strictly for **educational** and **research** purposes within a **controlled environment**. This tool must only be used with the **explicit permission** of the **server owner**.
+**JAVAFLOOD** is a tool designed for launching **Denial of Service (DoS)** attacks on Minecraft Java Edition servers. This tool floods the server with multiple methods to overload the server’s resources, resulting in an unresponsive state.
 
 Any **unauthorized use**, including attempting to **disrupt**, **overload**, or **damage** servers, is strictly **prohibited** and may be considered **illegal** under applicable laws. Such actions can lead to **severe consequences** for both the target systems and the individuals involved.
 
 Please use this tool **responsibly** and **only** for legitimate **security testing** and **academic purposes**. **Misuse** of this tool is **unethical**, potentially **unlawful**, and strongly **discouraged**.
 
+**The developer of this tool only created it for educational and research purposes within a controlled environment and does not take any responsibility for any misuse, damage, or legal consequences resulting from intentional or unauthorized use by others.**
+
 ## Table of Contents
-* **[Description](#description)**
 * **[Features](#features)**
 * **[Usage](#usage)**
 * **[Arguments](#arguments)**
 * **[Credits](#credits)**
 * **[Updates](#updates)**
-
-## Description
-**JAVAFLOOD** is a tool designed for launching **Denial of Service (DoS)** attacks on Minecraft Java Edition servers. This tool floods the server with multiple methods to overload the server’s resources, resulting in an unresponsive state.
 
 ## Features
 - **TCP Handshake Flooding**:
@@ -67,19 +66,19 @@ Please use this tool **responsibly** and **only** for legitimate **security test
 
 ## Arguments
 
-| Argument | Required | Description                                                              |
-| -------- | -------- | ------------------------------------------------------------------------ |
-| `-ip`    | Yes      | Target server IP address **(e.g., `127.0.0.1`)**.                        |
-| `-port`  | Yes      | Target server port **(must be an integer between `1` and `65535`)**.     |
-| `-s`     | Yes      | Packet size **(must be an integer)**.                                    |
-| `-t`     | Yes      | Number of threads **(must be an integer)**.                              |
-| `-p`     | Yes      | Protocol version **(choose an integer value or set to `0` for random)**. |
-| `-d`     | Yes      | Duration of the attack in seconds **(must be an integer)**.              |
-| `-icon`  | Optional | Hide Skull&Flood logo **(1 to Enable / 0 to Disable)**                   |
-| `-load`  | Optional | Path to a `.json` configuration file **(loads all parameters)**.         |
-| `-wait`  | Optional | Delay the attack by X seconds after all **required arguments are set.**  |
-| `-api`   | Optional | Call the `api` function with the provided domain/IP and exit.            |
-| `-h`     | No       | Show help message and exit.                                              |
+| Argument | Required | Description                                                     |
+| -------- | -------- | --------------------------------------------------------------- |
+| -ip      | Yes      | Defines the destination server IP address (e.g., 127.0.0.1).    |
+| -port    | Yes      | Specifies the target port (must integer between 1 and 65535).   |
+| -s       | Yes      | Configures the size (in bytes) of each transmitted packet.      |
+| -t       | Yes      | Determines the number of parallel execution threads.            |
+| -p       | Yes      | Sets the protocol version to be used during execution.          |
+| -d       | Yes      | Controls the total execution time (in seconds).                 |
+| -api     | Optional | Call the API function from mcstatus with the domain.            |
+| -load    | Optional | Loads external configuration from a specified JSON file path.   |
+| -wait    | Optional | Delays execution by a specified number of seconds.              |
+| -art     | Optional | Toggles visibility of the logo (1 = show, 0 = hide).            |
+| -h       | No       | Show this help message and exit.                                |
 
 ## Usage
 
@@ -87,10 +86,7 @@ Please use this tool **responsibly** and **only** for legitimate **security test
     ```bash
     git clone https://github.com/Audrise/javaflood.git
     ```
-    Or you can download this repo to your local machine
-    ```bash
-    https://github.com/Audrise/javaflood/archive/refs/heads/main.zip
-    ```
+
     ```bash
     cd javaflood
     ```
@@ -98,42 +94,24 @@ Please use this tool **responsibly** and **only** for legitimate **security test
     ```bash
     pip3 install -r requirements.txt
     ```
-   Or you can install it manually
-    ```bash
-    pip3 install pystyle requests
-    ```
 
-3. To run `javaflood.py`, open a terminal and use the following command:
+3. Run javaflood using several methods as below:
     ```bash
-    python3 javaflood.py -ip [ ip address ] -port [ port ] -s [ packet size ] -t [ threads ] -p [ protocol ] -d [ duration ]
+    python3 javaflood.py -ip 120.0.0.1 -port 25565 -s 100 -t 100 -p 47 -d 60 -wait 10 -art 0
     ```
-
-    Example 1
-    ```bash
-    python3 javaflood.py -ip 120.0.0.1 -port 25565 -s 100 -t 100 -p 47 -d 60
-    ```
-    Example 2
-    ```bash
-    python3 javaflood.py -ip 120.0.0.1 -port 25565 -s 100 -t 100 -p 47 -d 60 -wait 10
-    ```
-    Example 3
-    ```bash
-    python3 javaflood.py -ip 120.0.0.1 -port 25565 -s 100 -t 100 -p 47 -d 60 -wait 10 -icon 0
-    ```
-4. or you can use
+    or you can use -load parameter:
     ```bash
     python3 javaflood.py -load config.json
     ```
-    and don't forget to configure the attack in `config.json`
 
 ## Credits
-- Thanks to **[FiePaw](https://github.com/FiePaw)** to enable me to strengthen and modify the initial version of `JAVAFLOOD` that **[FiePaw](https://github.com/FiePaw)** developed
+- Thanks to **[FiePaw](https://github.com/FiePaw)** for allowing me to fortify and modify the initial version of **JAVAFLOOD** developed by FiePaw.
 - Thanks to **[BillyTheGoat356](https://github.com/billythegoat356)** which provides the **[PyStyle](https://github.com/billythegoat356/pystyle.git)** module for very nice terminal styling and **[Hyperion](https://github.com/billythegoat356/hyperion.git)** for nice obfuscation tool
 - Thanks to **[mcstatus.io](https://mcstatus.io)** which provides API to check minecraft server easily and quickly.
 
 ## Updates
 
-### **1.2 - Usage of -load Parameter** 📌
+### **1.2.1 - Usage of -load parameter** 📌
 By using the `-load` parameter, you can directly run the tool with the configuration set inside a `.json` file, without the need to manually input all the parameters. This is particularly useful for speeding up the setup process and running the tool with pre-configured settings.
 
 #### **Example usage**
@@ -156,9 +134,8 @@ Make sure the `.json` file you create is formatted correctly, with the parameter
     "protocol": 0,
     "duration": 0,
     "wait": 60,
-    "icon": 0
+    "art": 0
 }
 ```
 <h1></h1>
 <h4 align="center">©AUDRISE</h4>
-
