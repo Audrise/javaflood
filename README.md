@@ -9,9 +9,19 @@
 
 <div align=center>
     <a href="https://www.python.org/">
-        <img src="https://img.shields.io/badge/Python 3-FFDD00?style=for-the-badge&logo=python&logoColor=blue"/>
+        <img src="https://img.shields.io/badge/Python 3.10+-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/>
     </a>
-    <img src="https://img.shields.io/badge/JAVAFLOOD-1.2.1-blue?style=for-the-badge"/>
+    <a href="https://github.com/Audrise/FFTool">
+      <img src="https://img.shields.io/badge/JAVAFLOOD 1.2-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/>
+    </a>
+    </a>
+    <br>
+    <img src="https://img.shields.io/badge/windows-blue?style=for-the-badge&logo=windows11&%20terminal&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
+    <img src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white"/>
+    <br>
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+    <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white"/>
     <br>
     <img src="https://img.shields.io/github/stars/Audrise/javaflood?style=social"/>
     <img src="https://img.shields.io/github/forks/Audrise/javaflood?style=social"/>
@@ -105,7 +115,7 @@ Please use this tool **responsibly** and **only** for legitimate **security test
     ```
 
 ## Credits
-- Thanks to **[FiePaw](https://github.com/FiePaw)** for allowing me to fortify and modify the initial version of **JAVAFLOOD** developed by FiePaw.
+- Thanks to **[FiePaw](https://github.com/FiePaw)** for allowing me to modify the initial version of **JAVAFLOOD** that developed by he.
 - Thanks to **[BillyTheGoat356](https://github.com/billythegoat356)** which provides the **[PyStyle](https://github.com/billythegoat356/pystyle.git)** module for very nice terminal styling and **[Hyperion](https://github.com/billythegoat356/hyperion.git)** for nice obfuscation tool
 - Thanks to **[mcstatus.io](https://mcstatus.io)** which provides API to check minecraft server easily and quickly.
 
