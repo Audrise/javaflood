@@ -42,8 +42,7 @@ Please use this tool **responsibly** and **only** for legitimate **security test
 ## Table of Contents
 * **[Features](#features)**
 * **[Usage](#usage)**
-* **[Arguments](#arguments)**
-* **[Credits](#credits)**
+* **[Arguments](#arguments)**
 * **[Updates](#updates)**
 
 ## Features
