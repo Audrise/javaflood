@@ -114,11 +114,6 @@ Please use this tool **responsibly** and **only** for legitimate **security test
     python3 javaflood.py -load config.json
     ```
 
-## Credits
-- Thanks to **[FiePaw](https://github.com/FiePaw)** for allowing me to modify the initial version of **JAVAFLOOD** that developed by he.
-- Thanks to **[BillyTheGoat356](https://github.com/billythegoat356)** which provides the **[PyStyle](https://github.com/billythegoat356/pystyle.git)** module for very nice terminal styling and **[Hyperion](https://github.com/billythegoat356/hyperion.git)** for nice obfuscation tool
-- Thanks to **[mcstatus.io](https://mcstatus.io)** which provides API to check minecraft server easily and quickly.
-
 ## Updates
 
 ### **1.2.1 - Usage of -load parameter** 📌
