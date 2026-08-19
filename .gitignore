@@ -1,2 +1,76 @@
-source/
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Type checking / Linters
+# =========================
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs / Temporary files
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Project-specific
+# =========================
 target_history.txt
+javasource
