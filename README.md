@@ -41,7 +41,6 @@ Please use this tool **responsibly** and **only** for legitimate **security test
 * **[Features](#features)**
 * **[Usage](#usage)**
 * **[Arguments](#arguments)**
-* **[Credits](#credits)**
 * **[Changelog](#changelog)**
 
 ## Features
