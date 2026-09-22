@@ -14,12 +14,10 @@
     <a href="https://github.com/Audrise/FFTool">
       <img src="https://img.shields.io/badge/JAVAFLOOD 1.2-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/>
     </a>
-    </a>
     <br>
     <img src="https://img.shields.io/badge/windows-blue?style=for-the-badge&logo=windows11&%20terminal&logoColor=white"/>
     <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
     <img src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white"/>
-    <br>
     <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
     <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white"/>
     <br>
@@ -44,7 +42,7 @@ Please use this tool **responsibly** and **only** for legitimate **security test
 * **[Usage](#usage)**
 * **[Arguments](#arguments)**
 * **[Credits](#credits)**
-* **[Updates](#updates)**
+* **[Changelog](#changelog)**
 
 ## Features
 - **TCP Handshake Flooding**:
@@ -114,13 +112,12 @@ Please use this tool **responsibly** and **only** for legitimate **security test
     python3 javaflood.py -load config.json
     ```
 
-## Updates
+## Changelog
 
 ### **1.2.1 - Usage of -load parameter** 📌
 By using the `-load` parameter, you can directly run the tool with the configuration set inside a `.json` file, without the need to manually input all the parameters. This is particularly useful for speeding up the setup process and running the tool with pre-configured settings.
 
 #### **Example usage**
-For example, if you have a configuration file named config.json that contains the default settings for the tool, you can run the tool with the following command:
 
 ```bash
 python3 javaflood.py -load config.json
@@ -143,4 +140,8 @@ Make sure the `.json` file you create is formatted correctly, with the parameter
 }
 ```
 <h1></h1>
-<h4 align="center">©AUDRISE</h4>
+<h4 align="center">©2025-2026 Audrise. All rights reserved.</h4>
+
+<div align="center">
+   <a href="#table-of-contents">Back to top</a>
+</div>
